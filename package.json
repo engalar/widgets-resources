@@ -76,7 +76,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged --config \"./prettier.config.js\" --pattern \"**/{src,script,test}/**/*.{js,jsx,ts,tsx,scss,html}\"",
+      "pre-commit": "pretty-quick --staged --config \"./prettier.config.js\" --pattern \"**/{src,script,test}/**/*.{js,jsx,ts,tsx,scss,html}\" && npm run ",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
